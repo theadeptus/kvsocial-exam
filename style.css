@@ -1,0 +1,126 @@
+/*Montserrat regular and bold*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
+/*Notosans regular and bold*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;500&display=swap');
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.best {
+	font-size: 60%;
+  color: ghostwhite;
+  background-color: #99CC33;
+}
+
+.uppermost {
+  height: 5%;
+  background-color: #f1f3f3;
+  border-right: 1px solid #d1d6d6;
+  border-left: 1px solid #d1d6d6;
+}
+
+
+#table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table { 
+    margin-top: 50px;
+    width: 50%;
+  }
+td {
+    font-family: 'Noto+Sans', sans-serif;
+    padding: 6px;
+    border: 1px solid #f1f3f3;
+    text-align: center;
+}
+th {
+    height: 1px;
+    padding: 6px;
+    border-right: 1px solid #f1f3f3;
+    border-left: 1px solid #f1f3f3;
+    text-align: center;
+}
+
+.topmost {
+  font-family: 'Noto+Sans', sans-serif;
+  font-weight: 200;
+}
+
+.price {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+}
+
+.billed {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 10px;
+  vertical-align: top;
+}
+
+.label {
+	text-align: left;
+}
+
+.graycells {
+	background-color: #f1f3f3;
+	border-right: 1px solid #d1d6d6;
+  border-left: 1px solid #d1d6d6;
+}
+
+
+.circle {
+      border-radius: 100%;
+        width: 12px;
+        height: 12px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-left: 4px;
+        padding-right: 4px;
+        background: none;
+        border: 1px solid #99CC33;
+        color: #99CC33;
+        text-align: center;
+        font: 7px Arial, sans-serif;
+}
+
+
+.buybasic {
+  background-color: #666699;
+  color: ghostwhite;
+  margin: none;
+  padding: 2px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.buybsns {
+  background-color: #99CC33;
+  color: ghostwhite;
+  margin: none;
+  padding: 2px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.buypro {
+  background-color: #4C7DA5;
+  color: ghostwhite;
+  margin: none;
+  padding: 2px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+
+}
